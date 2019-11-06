@@ -14,4 +14,9 @@ class Post
     @@all
   end
   
-# 
+# Post #author_name knows the name of its author
+  def author_name
+    post.author = self
+  end
+  
+  
