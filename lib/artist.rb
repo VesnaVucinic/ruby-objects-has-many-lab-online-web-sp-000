@@ -11,6 +11,7 @@ class Artist
   def self.all
     @@all
   end
+  
 #Artist #add_song takes in an argument of a song and associates that song with the artist by telling the song that it belongs to that artist#
   def add_song(song)
     song.artist = self
