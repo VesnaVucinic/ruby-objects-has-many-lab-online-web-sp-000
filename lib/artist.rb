@@ -7,6 +7,7 @@ class Artist
     @name = name
     @@all << self
   end
+=begin
 
   def self.all
     @@all
