@@ -1,4 +1,5 @@
 class Artist
+  # 
   attr_accessor :name
 
 # Artist #songs has many songs
