@@ -1,4 +1,6 @@
 class Post 
+  
+#
   attr_accessor :title 
 # Post @@all is a class variable set to an array 
   @@all = []
