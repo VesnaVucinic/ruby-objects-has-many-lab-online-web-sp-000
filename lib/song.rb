@@ -1,6 +1,6 @@
 class Song
   attr_accessor :name, :artist
-
+#
   @@all = []
   
 # Song #new is initialized with an argument of a name
