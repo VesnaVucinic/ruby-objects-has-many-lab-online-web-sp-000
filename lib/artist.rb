@@ -30,6 +30,7 @@ class Artist
     Song.all.select {|song| song.artist == self}
   end
 
+# Artist .song_count is a class method that returns the total number of songs associated to all existing artists
 
   def self.song_count
     Song.all.count
