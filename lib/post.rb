@@ -9,4 +9,9 @@ class Post
     @@all << self
   end
   
-# 
+# Post .all is a class method that returns an array of all post instances that have been created
+  def self.all
+    @@all
+  end
+  
+  
