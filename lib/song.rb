@@ -1,10 +1,11 @@
 class Song
   attr_accessor :name, :artist
+ 
   
-#Song #new pushes new instances into a class variable called @@all upon initialization
   @@all = []
   
 # Song #new is initialized with an argument of a name
+#Song #new pushes new instances into a class variable called @@all upon initialization
 
   def initialize(name)
     @name = name
