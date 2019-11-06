@@ -17,6 +17,7 @@ class Post
 # Post #author_name knows the name of its author
   def author_name
     post.author = self
+    author_name if author
   end
   
   
