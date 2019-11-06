@@ -4,7 +4,7 @@ class Artist
 # Artist #songs has many songs
   @@all = []
 
-# 
+# Artist #new is initialized with a name
   def initialize(name)
     @name = name
     @@all << self
