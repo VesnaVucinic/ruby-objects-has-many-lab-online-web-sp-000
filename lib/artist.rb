@@ -15,7 +15,8 @@ class Artist
   def add_song(song)
     song.artist = self
   end
-
+  
+#Artist #add_song_by_name takes in an argument of a song name, creates a new song with it and associates the song and artist
   def add_song_by_name(name)
     song = Song.new(name)
     song.artist = self
