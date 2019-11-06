@@ -5,6 +5,7 @@ class Song
   @@all = []
   
 # Song #new is initialized with an argument of a name
+
   def initialize(name)
     @name = name
     @@all << self
