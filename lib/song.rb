@@ -1,5 +1,5 @@
 class Song
-  
+  #
   attr_accessor :name, :artist
  
  # Song @@all is a class variable set to an array
