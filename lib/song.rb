@@ -17,6 +17,7 @@ class Song
   end
   
 # Song #artist_name knows the name of its artist
+#
   def artist_name
     artist.name if artist
   end
