@@ -14,4 +14,4 @@ class Post
     @@all
   end
   
-  
+# 
