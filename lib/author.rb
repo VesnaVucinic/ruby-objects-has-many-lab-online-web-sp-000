@@ -15,4 +15,7 @@ class Author
   
 # Author #add_post_by_title takes in an argument of a post title, creates anew post with it and associates the post and author
   def add_post_by_title(post_title)
-    post_title.new
+    post = Post.new(post_title)
+    post.author = self
+  end
+  
