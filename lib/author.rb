@@ -2,7 +2,8 @@ class Author
   
 #Author #name has an attr_accessor for name
   attr_accessor :name 
-#  
+  
+#Author #posts has many posts  
   @@all = []
   
   def initialize(name)
