@@ -1,6 +1,6 @@
 class Author 
   
-#
+#Author #name has an attr_accessor for name
   attr_accessor :name 
   
   @@all = []
