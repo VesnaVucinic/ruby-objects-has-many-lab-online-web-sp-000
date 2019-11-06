@@ -11,7 +11,7 @@ class Song
     @@all << self
   end
 
-#
+#Song .all is a class method that returns an array of all song instances that have been created
   def self.all
     @@all
   end
