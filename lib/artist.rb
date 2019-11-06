@@ -7,7 +7,6 @@ class Artist
     @name = name
     @@all << self
   end
-=begin
 
   def self.all
     @@all
@@ -29,7 +28,4 @@ class Artist
   def self.song_count
     Song.all.count
   end
-end
-
-=end
 
